@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Century Gothic", "verdana";
+    box-sizing: content-box;
+    outline: none;
+    color: white;
+}
+/*################      SROLLBAR      ###########################*/
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 25px;
+}
+
+/* mes boutton */
+button{
+    width: 100%;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+    background: #f5f7fa;
+    /* color: #A3C6E4; */
+    color: #f5f7fa;
+    /* transition: 0.5s; */
+}
+
+/* button:hover{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s;
+    font-size: 14.5px;
+} */
+
+/* div{
+    border: 1px solid red;
+} */

@@ -1,0 +1,262 @@
+.divContInfosM{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_B {
+    width: 30%;
+    position: fixed;
+    right: 5px;
+    margin: 10px;
+}
+
+.div_1, .divContSort, .divRecusition {
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-color: #89AED1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #113153;
+} 
+
+.divContSort, .divRecusition {
+    margin-top: 10px;
+}
+
+.paraI, .para {
+    width: 100%;
+    height: 13px;
+    font-size: 13px;
+    color: red;
+}
+
+.serv_ {
+    background-color: #89AED1;
+    height: 20px;
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.titleC {
+    text-align: left;
+}
+
+.div_2 {
+    margin: 10px;
+    padding: 5px;
+    /* border: 1px solid red; */
+    width: 66%;
+    /* height: 70%; */
+    overflow-y: scroll;
+}
+
+.title {
+    text-align: left;
+    background-color: #113153;
+}
+
+.divHisto {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.divHisto:hover {
+    background-color: #A3C6E4;
+    transition: 0.3s;
+}
+
+.divInfosPlus_ {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.divM, .divMM {
+    width: 48%;
+}
+
+.titleDateE {
+    color: #113153;
+    text-align: left;
+    font-size: 15px;
+}
+
+.titleDateS {
+    background-color: #113153;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.pdE, .pnL, .pdP, .scD, .pqR, .pqR_r {
+    text-align: left;
+    color: #113153;
+    font-size: 15px;
+}
+
+.voirPlus {
+    height: 105px;
+}
+
+.voirPlus_ {
+    height: 95px;
+}
+
+.imgDown {
+    height: 28px;
+    width: 28px;
+    transition: 0.4s;
+}
+
+.divMesPara {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.titleB {
+    text-align: left;
+}
+
+.divA, .divC {
+    width: 50%;
+    overflow: hidden;
+}
+
+.paraP, .paraF, .paraD, .paraC, .paraPP, .paraFF, .paraDD, .paraCC, .paraNN, .paraN {
+    text-align: left;
+    font-size: 13px;
+}
+
+.paraPP, .paraFF, .paraDD, .paraCC, .paraNN {
+    color: #113153;
+}
+
+.divBtnMod {
+    width: 60%;
+    margin: auto;
+}
+
+.divInfosSupp {
+    width: 100%;
+    /* height: 1000px;
+    position: absolute; */
+    /* top: 0; */
+    border-radius: 10px;
+    background-color: #113153;
+    box-shadow: 0 0 10px #113153;
+    padding: 5px;
+    margin-top: 13px;
+    transition: 0.3s;
+}
+
+.divIncl {
+    height: 20px;
+    width: 20px;
+    background-color: #113153;
+    transform: rotate(45deg);
+    position: relative;
+    left: 69%;
+    margin-top: -8px;
+}
+
+.paraSup {
+    font-size: 13px;
+}
+
+.divModMal {
+    margin-left: -30%;
+}
+
+.divDel{
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.imgMod, .imgDel, .imgPrin{
+    height: 20px;
+    width: 20px;
+    background-color: #89AED1;
+    border: 1px solid #113153;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.btnEdit, .btnSupp, .btnImp {
+    display: flex;
+    height: 28px;
+    margin-right: 3px;
+    /* justify-content: space-between; */
+    background-color: #113153;
+}
+
+.parBtnSup {
+    margin: 3px;
+}
+
+.divContSuppMedi, .divContModifierMedi {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.divSuppMedi, .divModifMedi {
+    width: 30%;
+    border-radius: 20px;
+    background-color: #89AED1;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 5px;
+}
+
+.divImgDelete {
+    width: 100%;
+    height: 150px;
+}
+
+.imgDele {
+    width: 100%;
+    height: 100%;
+}
+
+.btnSupMedi {
+    background-color: #113153;
+}
+
+.paraSup, .lienAnnuler {
+    color: #113153;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.divChampMod {
+    width: 90%;
+    margin: auto;
+}
+
+.btnMod {
+    margin-top: 5px;
+    width: 100%;
+    height: 26px;
+    border: none;
+    border-radius: 15px;
+    background-color: #113153;
+}

@@ -1,0 +1,7 @@
+.btnAide {
+    border-bottom: 3px solid white;
+}
+
+.btnAcc, .btnNot .btnProf, .btnAPro{
+    border-bottom: 3px solid transparent;
+}

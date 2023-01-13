@@ -1,0 +1,116 @@
+* {
+    color: black;
+}
+
+body {
+    background-color: #F1EFF0;
+}
+
+.divConteneur {
+    background-color: #F7F7F7;
+    margin: 2% auto;
+    width: 1063px;
+    height: 1535px;
+    padding: 5px;
+}
+/* 
+.divHaut {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+/* }  */
+
+.divTitle {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tit {
+    text-align: left;
+}
+
+.tit_fiche {
+    text-decoration: underline;
+}
+
+.divIfosMedi {
+    margin-top: 5px;
+    display: flex;
+}
+
+.divG {
+    margin-right: 10px;
+}
+
+.p , .pr, .fr, .ds, .cn{
+    text-align: left;
+}
+
+/* le tableau de données */
+
+
+
+/* div sur les bouttons d'impression */
+.divBtn {
+    position: fixed;
+    top: 75%;
+    left: 5%;
+    padding: 5px;
+}
+
+.imgIm, .imgAct {
+    height: 30px;
+    width: 30px;
+    background-color: #A3C6E4;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.imgIm:hover, .imgAct:hover {
+    background-color: #89AED1;
+}
+
+/* .divPartieBas {
+    /* border: 1px solid black; */
+    /* height: 30px; */
+/* }  */
+
+.divTitle__ {
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.de, .nl, .dp, .so, .qs {
+    border: 1px solid black;
+    width: 20%;
+}
+
+.pde, .pnl, .pdp, .pso, .pqs {
+    font-weight: bold;
+}
+
+.divHistoEntr {
+    border: 1px solid black;
+    width: 99.8%;
+}
+
+.divInfosUniq {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.pdE, .pnL, .pdP, .scD, .pqR {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 20%;
+}
+
+.pdS, .psC, .pnD, .sqS, .pqR {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 20%;
+}

@@ -1,0 +1,197 @@
+/* header {
+    margin-top: -2%;
+} */
+
+.divBody {
+    position: absolute;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.divConte {
+    padding-top: 95px;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.divGa {
+    width: 55%;
+    padding: 2%;
+}
+
+.btnProf {
+    border-bottom: 3px solid white;
+}
+
+.btnAcc, .btnNot , .btnAide, .btnAPro{
+    border-bottom: 3px solid transparent;
+}
+
+.divContGauche {
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    margin: 10% auto;
+    box-shadow: 0 0 10px #113153;
+}
+
+.divImgPr {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+
+.imgPhoto {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    position: relative;
+    top: -23%;
+    left: 30%;
+    background-color: #89AED1;
+}
+
+.imgPr {
+    width: 100%;
+    height: 100%;
+}
+
+.divContI {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10% auto 10%;
+}
+
+.divA, .divC {
+    /* border: 1px solid white; */
+    width: 48%;
+    overflow: hidden;
+}
+
+.pp, .pp_ {
+    text-align: left;
+}
+
+.pp_ {
+    color: #113153;
+}
+
+.divDr {
+    /* border: 1px solid white; */
+    padding: 5px;
+    width: 35%;
+}
+
+.divMenu {
+    box-shadow: 0 0 10px #113153;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.divImg {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+.divPara {
+    width: 70%;
+    margin: auto;
+}
+
+.para {
+    font-size: 13px;
+}
+
+.imgProfi {
+    width: 95%;
+    height: 100%;
+}
+
+.btnInfosASavoir, .btnModi, .btnSuppr, .btnDeco {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 26px;
+    background-color: #A3C6E4;
+    /* color: #89AED1; */
+}
+
+.btnInfosASavoir {
+    background-color: #113153;
+}
+
+.btnModi:hover, .btnSuppr:hover, .btnDeco:hover {
+    background-color: #89AED1;
+    box-shadow: 0 0 10px #A3C6E4;
+    transition: 0.3s;
+}
+
+.divContModifier, .divContSupprimer {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.divCont {
+    width: 30%;
+    border-radius: 20px;
+    background-color: #89AED1;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 5px;
+}
+
+.divImgModi, .divImgSupp {
+    width: 100%;
+    height: 150px;
+}
+
+.imgModi {
+    width: 100%;
+    height: 100%;
+}
+
+.nomU, .preU, .admU, .mdpU, .Confmdp {
+    width: 95%;
+    margin-bottom: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #89AED1;
+    height: 22px;
+}
+
+.btnValidModi {
+    width: 95%;
+    height: 24px;
+    border-radius: 15px;
+    border: none;
+    background-color: #113153;
+    margin-top: 3px;
+}
+
+.btnValidModi:hover {
+    box-shadow: 0px 0px 5px #113153;
+    transition: 3s;
+}
+
+.paraAnn {
+    font-size: 13px;
+    color: #113153;
+    text-decoration: none;
+}
+
+.paraAlertModi, .paraSup {
+    width: 100%;
+    font-size: 13px;
+    height: 14px;
+    color: red;
+}

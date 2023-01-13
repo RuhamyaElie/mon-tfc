@@ -1,0 +1,78 @@
+.btnApro {
+    border-bottom: 3px solid white;
+}
+
+.btnAcc, .btnNot .btnProf, .btnAide {
+    border-bottom: 3px solid transparent;
+}
+
+.divBod {
+    position: absolute;
+    background-color: #89AED1;
+    width: 100%;
+    height: 100%;
+}
+
+.divII {
+    padding-top: 8%;
+}
+
+.divContTous {
+    /* border: 1px solid white; */
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    /* display: flex; */
+}
+
+.divIndi {
+    /* border: 1px solid white; */
+    padding: 5px;
+}
+
+.divImg {
+    /* border: 1px solid white; */
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.imgPlace {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.divParaInfos {
+    border: 1px solid white;
+    /* padding: 10px; */
+}
+
+.para {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    /* text- */
+    line-height: 23px;
+}
+
+.divLinks {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+
+.btnMl, .btnFb, .btnWhat, .btnInt, .btnTel {
+    width: 16%;
+    background-color: #113153;
+    transition: 0.4s;
+}
+
+.btnMl:hover, .btnFb:hover, .btnWhat:hover, .btnInt:hover, .btnTel:hover {
+    box-shadow: 0 0 10px #113153;
+    transition: 0.4s;
+}
